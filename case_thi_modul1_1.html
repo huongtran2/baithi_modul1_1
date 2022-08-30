@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 1</title>
+</head>
+<body>
+<h2>Tính điểm trung binh</h2>
+
+<script>
+  function finAvg(arr){
+    let sum
+    let a = 0
+    for (let i = 0; i < arr.length; i++) {
+      a += arr[i]
+    }sum = a / arr.length
+    return sum
+  }
+  let arr1 = [7,8,9,10,5,4]
+  let c = finAvg(arr1)
+  document.write( "Điểm trung bình = "+c)
+</script>
+
+</body>
+</html>
